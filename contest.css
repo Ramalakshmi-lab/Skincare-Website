@@ -5,6 +5,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: antiquewhite;
 }
+body{
+  background-color: antiquewhite;
+}
 .headpart h1{
     font-size: 40px;   
 }
@@ -57,7 +60,9 @@
 .container-fluid{
     padding-left: 30px;
     margin-left: 40px;
+    margin-bottom: 0;
     width:100%;
+    height: 100%;
     background-color:antiquewhite;
 
 }
@@ -97,7 +102,7 @@ a{
     float: left;
     margin-left:105px;
     margin-bottom:50px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .card1 .card-img-top img{
     height:75%;
@@ -106,7 +111,9 @@ a{
 .card .row{
     background-color: antiquewhite;
 }
-h3{
+
+.previous h3{
+  margin-top: 10px;
     padding-left: 20px;
     height: 40px;
     width:100px;
@@ -146,15 +153,20 @@ h3{
 
 }
 .previous{
-    padding-top: 20px;
-    padding-left: 30px;
+   
     background-color: #d1f3de;
+    padding-top: 2px;
+    width:1530px;
+    padding-left: 10px;
+    height: 120px;
 }
 .previous h1{
     text-align: center;
     color: #7a0e42;
+    margin-bottom: 10px;
     background-color: #d1f3de;
 }
+
 .centered {
     position: absolute;
     top: 70%;
